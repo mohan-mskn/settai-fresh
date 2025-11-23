@@ -1,0 +1,10 @@
+/bundletool/
+*.apk
+*.apks
+*.aab
+*.zip
+bundletool/ 
+*.apk 
+*.apks 
+*.aab 
+*.zip 
