@@ -1,46 +1,42 @@
 # Node modules
 node_modules/
-npm-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
 
-# Expo & React Native
+# Expo / React Native
 .expo/
 .expo-shared/
-*.expo-workspace
-
-# macOS
-.DS_Store
-
-# Android
-android/.gradle/
+*.expo.*
+dist/
 android/app/build/
-android/build/
-android/app/*.keystore
-android/local.properties
-
-# iOS
-ios/Pods/
 ios/build/
-ios/DerivedData/
-*.xcodeproj/project.xcworkspace/xcuserdata/
-*.xcuserstate
+ios/Pods/
 
-# Build outputs
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# React Native / Expo generated assets
 *.apk
 *.apks
 *.aab
 *.zip
+*.keystore
+*.jks
 
-# Logs
-*.log
-
-# Env files
+# Environment files
 .env
 .env.*.local
-
-# Other
-*.swp
-*.swo
-.idea/
-.vscode/
