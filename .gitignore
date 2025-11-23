@@ -1,10 +1,46 @@
-/bundletool/
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Expo & React Native
+.expo/
+.expo-shared/
+*.expo-workspace
+
+# macOS
+.DS_Store
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/app/*.keystore
+android/local.properties
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+
+# Build outputs
 *.apk
 *.apks
 *.aab
 *.zip
-bundletool/ 
-*.apk 
-*.apks 
-*.aab 
-*.zip 
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.*.local
+
+# Other
+*.swp
+*.swo
+.idea/
+.vscode/
